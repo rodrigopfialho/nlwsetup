@@ -30,6 +30,8 @@ export function HabitDay({completed, amount}:HabitDayPros) {
                     <span className='mt-1 font-extrabold leading-ti text-3xl'>17/01</span>
 
                     <ProgressBar progress={completedPercentage}/>
+
+                    <div className='mt-6 flex flex-col gap-3'></div>
                     
 
                     <Popover.Arrow  height={8} width={16} className='fill-zinc-900'/>
