@@ -1,7 +1,7 @@
 import { Dimensions, TouchableOpacity, TouchableOpacityProps } from "react-native";
 import clsx from "clsx";
 
-import { generateProgressPercentage } from "../util/generate-progress-percentage";
+import { generateProgressPercentage } from "../utils/generate-progress-percentage";
 import dayjs from "dayjs";
 
 const WEEK_DAYS = 7;
