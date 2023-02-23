@@ -18,6 +18,10 @@ export function HabitDay({completed = 0, amount = 0, date}:HabitDayPros) {
     const dayAndMonth = dayjs(date).format('DD/MM')
     const dayOfWeek = dayjs(date).format('dddd')
 
+    function handleCompletedChanged(completed: number) {
+        
+    }
+
     return (
         <Popover.Root>
             <Popover.Trigger 
